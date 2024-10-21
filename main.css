@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "VVDS";
+    src: url(midia/fonts/VVDS\ Pacifica\ Highlight.otf);
+}
+
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.meddon-regular {
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #f9f4a2;
+    position: sticky;
+}
+
+#validation {
+    background-color: #000004;
+}
+
+#validation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#validation .container {
+    padding: 0px;
+}
+
+.validationcapa {
+    box-shadow: 5px 5px 5px #03252e;
+}
+
+.container .validationp a {
+    font-size: 25px;
+    font-family: "Rowdies";
+    color: #0080a3;
+    text-decoration: none;
+}
+
+.container .validationp a:hover {
+    text-decoration: underline;
+    color: #0fb6e4;
+}
+
+.headervalidation header h1 {
+    font-family: "Meddon";
+    font-size: 55px;
+    font-weight: medium;
+    color: #000000;
+    text-shadow: 4px 4px 2px #106279;
+}
+
+.validationp p {
+    font-weight: lighter;
+    color: #0080a3
+}
+
+.validationp {
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+.validationp h2 {
+    font-family: "Meddon";
+    font-size: 28px;
+    color: #0080a3;
+    text-shadow: 4px 4px 2px #03252e;
+}
+
+.headervalidation header {
+    color: black;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #0080a3;
+    box-shadow: 5px 5px 5px #03252e;
+}
+
+#bittersweet {
+    background-color: #460c0b;
+}
+
+#bittersweet .container .bittersweetcapa {
+    box-shadow: 5px 5px 5px #dabd00;
+}
+
+#bittersweet .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bittersweetp {
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+.bittersweetp p {
+    font-weight: lighter;
+    color:#d44137;
+}
+
+.bittersweetp a {
+    font-size: 25px;
+    font-family: "Dela Gothic One";
+    text-decoration: none;
+    color:#9998d0;
+    text-shadow: 2px 2px #4547c4;
+    
+}
+
+.bittersweetp a:hover {
+    color:#adace0;
+    text-decoration: underline;
+}
+
+.bittersweetp h2 {
+    font-size: 32px;
+    color: #f3d457;
+    text-shadow: 2px 2px 2px #e94b47;
+    font-family: "Dela Gothic One";
+}
+
+.headerbitter h1 {
+    color: #0f131c;
+    font-family: "Dela Gothic One";
+    text-shadow: 5px 5px 5px #987b54;
+    font-size: 55px;
+}
+
+.headerbitter header {
+    background-color: #f3d457;
+    box-shadow: 5px 5px 5px #e94b47;
+}
+
+#bonstempos {
+    background-color: #1f131f;
+}
+
+.bonstemposp {
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+#bonstempos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bonstempos .container .bonstemposcapa {
+    box-shadow: 4px 4px 4px #fffbf8;
+}
+
+#bonstempos .headerbonstempos header {
+    box-shadow: 4px 4px 4px #7888bc;
+    background-color:#796ca7;
+}
+
+#bonstempos .headerbonstempos h1 {
+    font-family: "VVDS";
+    font-size: 55px;
+    font-weight: normal;
+    color: #fffbf8;
+    text-shadow: 4px 4px 4px #8b4b4c;
+}
+
+#bonstempos .bonstemposp p {
+    color:#fffbf8;
+}
+
+.bonstemposp a {
+    font-size: 24px;
+    color: #fffbf8;
+    text-shadow: 4px 4px 4px #8b4b4c;
+    font-family: "VVDS";
+    text-decoration: none;
+}
+
+.bonstempos a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+#bonstempos .bonstemposp h2 {
+    font-family: "VVDS";
+    font-size: 26px;
+    font-weight: normal;
+    color: #fffbf8;
+    text-shadow: 4px 4px 4px #8b4b4c;
+}
+
+#bonstempos .bonstemposcapa {
+    box-shadow: 4px 4px 4px #1f131f;
+    width: 640x;
+    height: 640px;
+}
+
+header a {
+    text-shadow: 2px 2px #9b5de6;
+    font-family: "Rowdies";
+    font-size: 18px;
+    color: #fde967;
+    text-decoration: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 12px;
+}
+
+section h2 {
+    color: #fde441;
+    text-shadow: 3px 3px #9b5de6;
+    font-size: 28px;
+    padding: 18px 0;
+}
+
+.aboutheader header h1 {
+    font-weight: normal;
+    color: #fde967;
+    text-shadow: 4px 4px #9b5de6;
+    font-size: 55px;
+}
+
+header img {
+    margin-left: 8px;
+    height: 36px;
+}
+
+.aboutheader h1,
+#about h2 {
+    font-family: "Rowdies";
+}
+
+header {
+    color: black;
+    background-color: #dabd00;
+    box-shadow: 3px 5px 3px #a879e2;
+    padding: 12px;
+}
+
+header a:hover {
+    color: #f7f3ad;
+    text-decoration: underline;
+}
+
+.container .validationcapa {
+    margin-right: 40px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.container .tfateamimg {
+    margin-top: 50px;
+    box-shadow: 4px 4px 4px #dabd00;
+}
+
+section .tfateamimg {
+    margin-right: 40px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.aboutp {
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    font-family: "Indie Flower";
+    font-weight: 800px;
+}
+
+.container .tfalogo {
+    padding: 8px;
+    margin-left: 100px;
+    height: 100px;
+}
+
+#interesse .container h2 {
+    font-family: "Rowdies";
+    font-weight: normal;
+    text-shadow: 2px 2px 2px #5c5b5b;
+    color: #fff;
+}
+
+#interesse {
+    background-color: #000000;
+}
+
+.intform form,
+.intform form input,
+.intform button {
+    color:#fff;
+    display: inline-block;
+    width: 240px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#interesse h2 {
+    padding: 90px;
+}
+
+.intform textarea{
+    color:#fff;
+    resize: none;
+    width: 240px;
+    height: 120px;
+}
+
+#interesse form input,
+#interesse form textarea {
+    font-family: "Rowdies   ";
+    background-color: #0f131c;
+    border:none
+}
+
+#interesse form button {
+    font-family: "Rowdies";
+    font-weight: normal;
+    color:#ffffff;
+    background-color: #1a1a1a;
+    border:none;
+}
+
+#interesse textarea {
+    font-family: "Rowdies";
+    color: #fff;
+}
+
+#interesse form button:hover {
+    background-color: #242424;
+    cursor: pointer;
+}
+
+footer {
+    color:#fff;
+    background-color: #000000;
+}
+
+footer img {
+    margin-left: 24px;
+    height: 32px;
+}
+
+html {
+    background-size: cover;
+}
